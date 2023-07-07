@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @Prince-Tagadiya
+<!-- - 👋 Hi, I’m @Prince-Tagadiya
 - 👀 I’m interested in Web/App Development
 - 🌱 I’m currently learning Programing Language
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 📫 How to reach me ...-->
 
 <!---
 Prince-Tagadiya/Prince-Tagadiya is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
