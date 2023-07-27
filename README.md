@@ -11,7 +11,7 @@ You can click the Preview link to take a look at your changes.
 ---> 
 # 💫 About Me:
 👋 Hi, I’m @Prince-Tagadiya<br>👀 I’m interested in Web/App Development<br>🌱 I’m currently learning Programing Language<br>
-<!--💻[Click Me for Portfolio](https://prince-tagadiya.github.io/Prince-Portfolio/)<br> --> 
+💻[Click Me for Portfolio](https://prince-tagadiya.github.io/Prince-Portfolio/){:target="_blank" rel="noopener"}<br>
 [go](http://stackoverflow.com){:target="_blank" rel="noopener"}
 
 ## 🌐 Socials:
