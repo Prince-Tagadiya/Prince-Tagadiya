@@ -2,7 +2,7 @@
 - 👀 I’m interested in Web/App Development
 - 🌱 I’m currently learning Programing Language
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...-->  
+- 📫 How to reach me ...-->
 
 
 <!--- 
