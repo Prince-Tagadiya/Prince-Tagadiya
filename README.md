@@ -12,7 +12,7 @@ You can click the Preview link to take a look at your changes.
 # 💫 About Me:
 👋 Hi, I’m @Prince-Tagadiya<br>👀 I’m interested in Web/App Development<br>🌱 I’m currently learning Programing Language<br>
 <!--💻[Click Me for Portfolio](https://prince-tagadiya.github.io/Prince-Portfolio/)<br> --> 
-<a href="https://prince-tagadiya.github.io/Prince-Portfolio/" target="_blank">Portfolio💻</a>
+<a href="https://prince-tagadiya.github.io/Prince-Portfolio/" target="_blank">💻Portfolio</a>
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/__.prince._.28) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/prince-tagadiya) 
