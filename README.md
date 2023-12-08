@@ -37,4 +37,4 @@ Here's a random developer quote for you:
 
 ---
 
-[![Visitor Count](https://visitcount.itsvg.in/api?id=Prince-Tagadiya&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://visitcount.itsvg.in/api?id=Prince-Tagadiya&label=Profile%20Views&color=0&icon=5&pretty=true)](https://visitcount.itsvg.in)
