@@ -1,94 +1,143 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 328" width="700" height="328">
+<svg width="800" height="260" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260">
   <defs>
-    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#E3B34A"/>
-      <stop offset="100%" stop-color="#F0C669"/>
+    <linearGradient id="ssBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080F0B"/>
+      <stop offset="100%" stop-color="#0E1E14"/>
     </linearGradient>
-    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <!-- Bar background (3D inset track) -->
+    <linearGradient id="barTrack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A120C"/>
+      <stop offset="50%" stop-color="#0D1710"/>
+      <stop offset="100%" stop-color="#101D14"/>
+    </linearGradient>
+
+    <!-- Expert bar fill — green with 3D highlight -->
+    <linearGradient id="fillExpert" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4C8752"/>
+      <stop offset="40%" stop-color="#2E5F35"/>
+      <stop offset="100%" stop-color="#1D4623"/>
+    </linearGradient>
+
+    <!-- Advanced bar fill -->
+    <linearGradient id="fillAdvanced" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3D7A45"/>
+      <stop offset="40%" stop-color="#2A5A30"/>
+      <stop offset="100%" stop-color="#1A3D22"/>
+    </linearGradient>
+
+    <!-- Proficient bar fill -->
+    <linearGradient id="fillProficient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#306638"/>
+      <stop offset="40%" stop-color="#244D2A"/>
+      <stop offset="100%" stop-color="#193620"/>
+    </linearGradient>
+
+    <!-- Shimmer that sweeps across bars -->
+    <linearGradient id="shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.85"/>
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0"/>
       <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="2 0" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
+
+    <!-- 3D shadow under bars -->
+    <filter id="barShadow" x="-2%" y="-5%" width="104%" height="130%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+
+    <!-- Inset effect for bar track -->
+    <filter id="trackInset" x="-1%" y="-10%" width="102%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="1" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+
+    <style>
+      @keyframes fillBar1 { from { width:0; } to { width:410px; } }
+      @keyframes fillBar2 { from { width:0; } to { width:385px; } }
+      @keyframes fillBar3 { from { width:0; } to { width:340px; } }
+      @keyframes fillBar4 { from { width:0; } to { width:300px; } }
+      @keyframes fillBar5 { from { width:0; } to { width:350px; } }
+      @keyframes fillBar6 { from { width:0; } to { width:270px; } }
+      .lbl { font-family:'Segoe UI',Helvetica,Arial,sans-serif; font-size:11px; font-weight:600; }
+      .tier { font-family:'Segoe UI',Helvetica,Arial,sans-serif; font-size:9px; font-weight:500; }
+      .bar1 { animation: fillBar1 1.5s ease-out 0.3s both; }
+      .bar2 { animation: fillBar2 1.5s ease-out 0.5s both; }
+      .bar3 { animation: fillBar3 1.5s ease-out 0.7s both; }
+      .bar4 { animation: fillBar4 1.5s ease-out 0.9s both; }
+      .bar5 { animation: fillBar5 1.5s ease-out 1.1s both; }
+      .bar6 { animation: fillBar6 1.5s ease-out 1.3s both; }
+    </style>
   </defs>
 
-  <text x="20" y="34" font-family="Verdana, sans-serif" font-size="15.5"
-        font-weight="600" fill="#F5E6CA">Embedded Systems &amp; Circuit Design</text>
-  <text x="680" y="34" text-anchor="end" font-family="Verdana, sans-serif"
-        font-size="11.5" letter-spacing="1.5" fill="#E3B34A">CORE</text>
+  <!-- Background -->
+  <rect width="800" height="260" fill="url(#ssBg)" rx="8"/>
 
-  <clipPath id="barclip0"><rect x="20" y="46" width="633.6" height="11" rx="5.5"/></clipPath>
+  <!-- Title -->
+  <text x="400" y="28" text-anchor="middle" fill="#C49A3C" font-family="'Segoe UI',sans-serif" font-size="13" font-weight="600" letter-spacing="3" opacity="0.7">CORE COMPETENCIES</text>
 
-  <rect x="20" y="46" width="660" height="11" rx="5.5" fill="#1D4623" stroke="#2E5F35" stroke-width="1"/>
-  <rect x="20" y="46" width="0" height="11" rx="5.5" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="633.6" dur="1.1s" begin="0.0s" fill="freeze" calcMode="linear"/>
-  </rect>
-  <g clip-path="url(#barclip0)">
-    <rect x="-50" y="46" width="46" height="11" fill="url(#shimmerGrad)" opacity="0.65">
-      <animate attributeName="x" from="-50" to="663.6" dur="2.6s" begin="1.1s" repeatCount="indefinite"/>
-    </rect>
+  <!-- ——— SKILL BAR 1: Embedded Systems ——— -->
+  <g transform="translate(0,40)" filter="url(#barShadow)">
+    <text x="55" y="15" class="lbl" fill="#E8DCC8">Embedded Systems</text>
+    <text x="710" y="15" class="tier" fill="#4C8752" text-anchor="end">EXPERT</text>
+    <!-- Track (3D inset) -->
+    <rect x="55" y="22" width="450" height="14" rx="7" fill="url(#barTrack)" filter="url(#trackInset)"/>
+    <!-- Fill (3D raised) -->
+    <rect x="55" y="22" height="14" rx="7" fill="url(#fillExpert)" class="bar1"/>
+    <!-- Shimmer overlay -->
+    <rect x="55" y="22" width="410" height="14" rx="7" fill="url(#shimmer)" class="bar1"/>
+    <!-- 3D highlight line on top -->
+    <rect x="55" y="22" width="410" height="3" rx="3" fill="#FFF" opacity="0.05" class="bar1"/>
   </g>
-  <text x="20" y="92" font-family="Verdana, sans-serif" font-size="15.5"
-        font-weight="600" fill="#F5E6CA">IoT &amp; Wireless Systems</text>
-  <text x="680" y="92" text-anchor="end" font-family="Verdana, sans-serif"
-        font-size="11.5" letter-spacing="1.5" fill="#E3B34A">CORE</text>
 
-  <clipPath id="barclip1"><rect x="20" y="104" width="607.2" height="11" rx="5.5"/></clipPath>
-
-  <rect x="20" y="104" width="660" height="11" rx="5.5" fill="#1D4623" stroke="#2E5F35" stroke-width="1"/>
-  <rect x="20" y="104" width="0" height="11" rx="5.5" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="607.2" dur="1.1s" begin="0.22s" fill="freeze" calcMode="linear"/>
-  </rect>
-  <g clip-path="url(#barclip1)">
-    <rect x="-50" y="104" width="46" height="11" fill="url(#shimmerGrad)" opacity="0.65">
-      <animate attributeName="x" from="-50" to="637.2" dur="2.6s" begin="1.32s" repeatCount="indefinite"/>
-    </rect>
+  <!-- ——— SKILL BAR 2: Circuit & PCB Design ——— -->
+  <g transform="translate(0,76)" filter="url(#barShadow)">
+    <text x="55" y="15" class="lbl" fill="#E8DCC8">Circuit &amp; PCB Design</text>
+    <text x="710" y="15" class="tier" fill="#4C8752" text-anchor="end">EXPERT</text>
+    <rect x="55" y="22" width="450" height="14" rx="7" fill="url(#barTrack)" filter="url(#trackInset)"/>
+    <rect x="55" y="22" height="14" rx="7" fill="url(#fillExpert)" class="bar2"/>
+    <rect x="55" y="22" width="385" height="14" rx="7" fill="url(#shimmer)" class="bar2"/>
+    <rect x="55" y="22" width="385" height="3" rx="3" fill="#FFF" opacity="0.05" class="bar2"/>
   </g>
-  <text x="20" y="150" font-family="Verdana, sans-serif" font-size="15.5"
-        font-weight="600" fill="#F5E6CA">PCB &amp; Hardware Prototyping</text>
-  <text x="680" y="150" text-anchor="end" font-family="Verdana, sans-serif"
-        font-size="11.5" letter-spacing="1.5" fill="#E3B34A">ADVANCED</text>
 
-  <clipPath id="barclip2"><rect x="20" y="162" width="561.0" height="11" rx="5.5"/></clipPath>
-
-  <rect x="20" y="162" width="660" height="11" rx="5.5" fill="#1D4623" stroke="#2E5F35" stroke-width="1"/>
-  <rect x="20" y="162" width="0" height="11" rx="5.5" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="561.0" dur="1.1s" begin="0.44s" fill="freeze" calcMode="linear"/>
-  </rect>
-  <g clip-path="url(#barclip2)">
-    <rect x="-50" y="162" width="46" height="11" fill="url(#shimmerGrad)" opacity="0.65">
-      <animate attributeName="x" from="-50" to="591.0" dur="2.6s" begin="1.54s" repeatCount="indefinite"/>
-    </rect>
+  <!-- ——— SKILL BAR 3: IoT & Wireless ——— -->
+  <g transform="translate(0,112)" filter="url(#barShadow)">
+    <text x="55" y="15" class="lbl" fill="#E8DCC8">IoT &amp; Wireless Systems</text>
+    <text x="710" y="15" class="tier" fill="#3D7A45" text-anchor="end">ADVANCED</text>
+    <rect x="55" y="22" width="450" height="14" rx="7" fill="url(#barTrack)" filter="url(#trackInset)"/>
+    <rect x="55" y="22" height="14" rx="7" fill="url(#fillAdvanced)" class="bar3"/>
+    <rect x="55" y="22" width="340" height="14" rx="7" fill="url(#shimmer)" class="bar3"/>
+    <rect x="55" y="22" width="340" height="3" rx="3" fill="#FFF" opacity="0.04" class="bar3"/>
   </g>
-  <text x="20" y="208" font-family="Verdana, sans-serif" font-size="15.5"
-        font-weight="600" fill="#F5E6CA">Full-Stack Development</text>
-  <text x="680" y="208" text-anchor="end" font-family="Verdana, sans-serif"
-        font-size="11.5" letter-spacing="1.5" fill="#E3B34A">ADVANCED</text>
 
-  <clipPath id="barclip3"><rect x="20" y="220" width="541.2" height="11" rx="5.5"/></clipPath>
-
-  <rect x="20" y="220" width="660" height="11" rx="5.5" fill="#1D4623" stroke="#2E5F35" stroke-width="1"/>
-  <rect x="20" y="220" width="0" height="11" rx="5.5" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="541.2" dur="1.1s" begin="0.66s" fill="freeze" calcMode="linear"/>
-  </rect>
-  <g clip-path="url(#barclip3)">
-    <rect x="-50" y="220" width="46" height="11" fill="url(#shimmerGrad)" opacity="0.65">
-      <animate attributeName="x" from="-50" to="571.2" dur="2.6s" begin="1.7600000000000002s" repeatCount="indefinite"/>
-    </rect>
+  <!-- ——— SKILL BAR 4: Full-Stack Dev ——— -->
+  <g transform="translate(0,148)" filter="url(#barShadow)">
+    <text x="55" y="15" class="lbl" fill="#E8DCC8">Full-Stack Development</text>
+    <text x="710" y="15" class="tier" fill="#3D7A45" text-anchor="end">ADVANCED</text>
+    <rect x="55" y="22" width="450" height="14" rx="7" fill="url(#barTrack)" filter="url(#trackInset)"/>
+    <rect x="55" y="22" height="14" rx="7" fill="url(#fillAdvanced)" class="bar4"/>
+    <rect x="55" y="22" width="300" height="14" rx="7" fill="url(#shimmer)" class="bar4"/>
+    <rect x="55" y="22" width="300" height="3" rx="3" fill="#FFF" opacity="0.04" class="bar4"/>
   </g>
-  <text x="20" y="266" font-family="Verdana, sans-serif" font-size="15.5"
-        font-weight="600" fill="#F5E6CA">Applied AI / ML Integration</text>
-  <text x="680" y="266" text-anchor="end" font-family="Verdana, sans-serif"
-        font-size="11.5" letter-spacing="1.5" fill="#E3B34A">ADVANCED</text>
 
-  <clipPath id="barclip4"><rect x="20" y="278" width="514.8" height="11" rx="5.5"/></clipPath>
+  <!-- ——— SKILL BAR 5: AI & ML ——— -->
+  <g transform="translate(0,184)" filter="url(#barShadow)">
+    <text x="55" y="15" class="lbl" fill="#E8DCC8">AI &amp; Machine Learning</text>
+    <text x="710" y="15" class="tier" fill="#3D7A45" text-anchor="end">ADVANCED</text>
+    <rect x="55" y="22" width="450" height="14" rx="7" fill="url(#barTrack)" filter="url(#trackInset)"/>
+    <rect x="55" y="22" height="14" rx="7" fill="url(#fillProficient)" class="bar5"/>
+    <rect x="55" y="22" width="350" height="14" rx="7" fill="url(#shimmer)" class="bar5"/>
+    <rect x="55" y="22" width="350" height="3" rx="3" fill="#FFF" opacity="0.03" class="bar5"/>
+  </g>
 
-  <rect x="20" y="278" width="660" height="11" rx="5.5" fill="#1D4623" stroke="#2E5F35" stroke-width="1"/>
-  <rect x="20" y="278" width="0" height="11" rx="5.5" fill="url(#barGrad)">
-    <animate attributeName="width" from="0" to="514.8" dur="1.1s" begin="0.88s" fill="freeze" calcMode="linear"/>
-  </rect>
-  <g clip-path="url(#barclip4)">
-    <rect x="-50" y="278" width="46" height="11" fill="url(#shimmerGrad)" opacity="0.65">
-      <animate attributeName="x" from="-50" to="544.8" dur="2.6s" begin="1.98s" repeatCount="indefinite"/>
-    </rect>
+  <!-- ——— SKILL BAR 6: Design & Media ——— -->
+  <g transform="translate(0,220)" filter="url(#barShadow)">
+    <text x="55" y="15" class="lbl" fill="#E8DCC8">Design &amp; Media</text>
+    <text x="710" y="15" class="tier" fill="#306638" text-anchor="end">PROFICIENT</text>
+    <rect x="55" y="22" width="450" height="14" rx="7" fill="url(#barTrack)" filter="url(#trackInset)"/>
+    <rect x="55" y="22" height="14" rx="7" fill="url(#fillProficient)" class="bar6"/>
+    <rect x="55" y="22" width="270" height="14" rx="7" fill="url(#shimmer)" class="bar6"/>
+    <rect x="55" y="22" width="270" height="3" rx="3" fill="#FFF" opacity="0.03" class="bar6"/>
   </g>
 </svg>

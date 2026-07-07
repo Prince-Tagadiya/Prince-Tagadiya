@@ -1,0 +1,41 @@
+<svg width="900" height="130" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 130">
+  <defs>
+    <linearGradient id="ftBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E5F35"/>
+      <stop offset="50%" stop-color="#1D4623"/>
+      <stop offset="100%" stop-color="#0A1810"/>
+    </linearGradient>
+
+    <linearGradient id="ftWave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4623" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0E1E14" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <filter id="waveShadow">
+      <feDropShadow dx="0" dy="-2" stdDeviation="3" flood-color="#000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Back wave (deeper, slower) -->
+  <path fill="url(#ftWave1)" filter="url(#waveShadow)">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite" values="
+      M0,45 C150,20 300,65 450,40 C600,15 750,55 900,35 L900,130 L0,130 Z;
+      M0,35 C150,60 300,20 450,50 C600,70 750,25 900,45 L900,130 L0,130 Z;
+      M0,45 C150,20 300,65 450,40 C600,15 750,55 900,35 L900,130 L0,130 Z
+    "/>
+  </path>
+
+  <!-- Front wave -->
+  <path fill="url(#ftBg)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite" values="
+      M0,70 C120,50 240,85 360,65 C480,45 600,80 720,60 C810,48 900,55 900,55 L900,130 L0,130 Z;
+      M0,60 C120,80 240,50 360,70 C480,88 600,55 720,72 C810,82 900,65 900,65 L900,130 L0,130 Z;
+      M0,70 C120,50 240,85 360,65 C480,45 600,80 720,60 C810,48 900,55 900,55 L900,130 L0,130 Z
+    "/>
+  </path>
+
+  <!-- Subtle hex dots on front wave -->
+  <circle cx="200" cy="100" r="1" fill="#4C8752" opacity="0.15"/>
+  <circle cx="450" cy="95" r="1.2" fill="#C49A3C" opacity="0.1"/>
+  <circle cx="700" cy="105" r="1" fill="#4C8752" opacity="0.12"/>
+</svg>
