@@ -58,7 +58,9 @@ It's also the instinct behind **Creato4**. Rather than wait for a company to hir
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-> *"The best embedded system is the one where the hardware does the thinking, so the software doesn't have to."*
+<div align="center">
+<img src="assets/quote-card.svg" width="100%" alt="Quote"/>
+</div>
 
 <br/>
 
@@ -116,6 +118,12 @@ It's also the instinct behind **Creato4**. Rather than wait for a company to hir
 
 <div align="center">
 <img src="assets/mission-control.svg" width="100%" alt="Impact stats"/>
+</div>
+
+<br/>
+
+<div align="center">
+<img src="assets/achievements.svg" width="100%" alt="Awards and achievements"/>
 </div>
 
 <br/>
@@ -278,10 +286,16 @@ SSIP-funded hydroponic farming rig with automated dashboards and live sensor vis
 <img src="assets/circuit-divider.svg" width="100%" alt="signal divider"/>
 
 <!-- ============================================================ -->
-<!-- 06 — SYSTEMS ARCHITECTURE (skills)                           -->
+<!-- 06 — SYSTEMS ARCHITECTURE (3D tech grid + skill bars)        -->
 <!-- ============================================================ -->
 
 ## ⚙️ 06 · Systems Architecture
+
+<div align="center">
+<img src="assets/tech-grid.svg" width="100%" alt="Tech Arsenal — 10 discipline cards"/>
+</div>
+
+<br/>
 
 <div align="center">
 <img src="assets/signal-strength.svg" width="100%" alt="Core competency signal strength"/>

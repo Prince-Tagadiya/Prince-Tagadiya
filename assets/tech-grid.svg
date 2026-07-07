@@ -1,0 +1,249 @@
+<svg width="800" height="380" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380">
+  <defs>
+    <linearGradient id="tsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060D08"/>
+      <stop offset="100%" stop-color="#0E1E14"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A3225"/>
+      <stop offset="100%" stop-color="#0F1E14"/>
+    </linearGradient>
+    <linearGradient id="cardHi" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="cs" x="-8%" y="-8%" width="120%" height="130%">
+      <feDropShadow dx="3" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="ig" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.3 0 0 0 0 0.55 0 0 0 0 0.22 0 0 0 0.5 0" result="g"/>
+      <feMerge><feMergeNode in="g"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      @keyframes cf1{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+      @keyframes cf2{0%,100%{transform:translateY(-3px)}50%{transform:translateY(4px)}}
+      @keyframes cf3{0%,100%{transform:translateY(2px)}50%{transform:translateY(-5px)}}
+      @keyframes fadeIn{from{opacity:0;transform:translateY(8px) scale(0.97)}to{opacity:1;transform:translateY(0) scale(1)}}
+      @keyframes iconPulse{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:.8;transform:scale(1.08)}}
+      .c1{animation:cf1 4s ease-in-out infinite}
+      .c2{animation:cf2 4.5s ease-in-out .3s infinite}
+      .c3{animation:cf3 5s ease-in-out .6s infinite}
+      .c4{animation:cf1 3.8s ease-in-out .9s infinite}
+      .c5{animation:cf2 4.2s ease-in-out 1.2s infinite}
+      .c6{animation:cf3 3.5s ease-in-out .2s infinite}
+      .c7{animation:cf1 4.8s ease-in-out .5s infinite}
+      .c8{animation:cf2 3.6s ease-in-out .8s infinite}
+      .fi1{animation:fadeIn .6s ease-out .1s both}
+      .fi2{animation:fadeIn .6s ease-out .2s both}
+      .fi3{animation:fadeIn .6s ease-out .3s both}
+      .fi4{animation:fadeIn .6s ease-out .4s both}
+      .fi5{animation:fadeIn .6s ease-out .5s both}
+      .fi6{animation:fadeIn .6s ease-out .6s both}
+      .fi7{animation:fadeIn .6s ease-out .7s both}
+      .fi8{animation:fadeIn .6s ease-out .8s both}
+      .ip{animation:iconPulse 3s ease-in-out infinite}
+      .lbl{font-family:'Segoe UI',Helvetica,Arial,sans-serif}
+      .ico{font-family:'SF Mono','Fira Code','Consolas',monospace;font-weight:700}
+    </style>
+  </defs>
+
+  <rect width="800" height="380" fill="url(#tsBg)" rx="10"/>
+
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" fill="#C49A3C" font-family="'Segoe UI',sans-serif" font-size="12" font-weight="600" letter-spacing="4" opacity="0.6">TECH ARSENAL</text>
+
+  <!-- Row 1 -->
+  <!-- Card: Embedded Systems -->
+  <g class="c1 fi1" filter="url(#cs)">
+    <rect x="22" y="48" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="22" y="48" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip">
+      <!-- Chip icon -->
+      <rect x="42" y="64" width="20" height="20" rx="3" fill="none" stroke="#4C8752" stroke-width="1.2"/>
+      <rect x="47" y="69" width="10" height="10" rx="1" fill="#1D4623" stroke="#4C8752" stroke-width="0.6"/>
+      <line x1="42" y1="70" x2="38" y2="70" stroke="#4C8752" stroke-width="0.7"/>
+      <line x1="42" y1="78" x2="38" y2="78" stroke="#4C8752" stroke-width="0.7"/>
+      <line x1="62" y1="70" x2="66" y2="70" stroke="#4C8752" stroke-width="0.7"/>
+      <line x1="62" y1="78" x2="66" y2="78" stroke="#4C8752" stroke-width="0.7"/>
+    </g>
+    <text x="76" y="78" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Embedded</text>
+    <text x="38" y="104" class="lbl" fill="#708068" font-size="8">ESP32 · Arduino · Firmware</text>
+    <line x1="38" y1="112" x2="176" y2="112" stroke="#C49A3C" stroke-width="0.4" opacity="0.2"/>
+  </g>
+
+  <!-- Card: Circuit Design -->
+  <g class="c2 fi2" filter="url(#cs)">
+    <rect x="210" y="48" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="210" y="48" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:0.5s">
+      <!-- PCB trace icon -->
+      <path d="M230,74 H240 L244,66 H254 L258,74 H268" fill="none" stroke="#4C8752" stroke-width="1.2"/>
+      <circle cx="240" cy="74" r="2" fill="#4C8752" opacity="0.6"/>
+      <circle cx="254" cy="66" r="2" fill="#C49A3C" opacity="0.5"/>
+      <circle cx="268" cy="74" r="2" fill="#4C8752" opacity="0.6"/>
+    </g>
+    <text x="230" y="98" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Circuit &amp; PCB</text>
+    <text x="226" y="112" class="lbl" fill="#708068" font-size="8">KiCad · Schematic · Proto</text>
+  </g>
+
+  <!-- Card: IoT & Wireless -->
+  <g class="c3 fi3" filter="url(#cs)">
+    <rect x="398" y="48" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="398" y="48" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:1s">
+      <!-- WiFi icon -->
+      <circle cx="428" cy="82" r="2.5" fill="#C49A3C" opacity="0.7"/>
+      <path d="M420,72 A12,12 0 0,1 436,72" fill="none" stroke="#C49A3C" stroke-width="1" opacity="0.5"/>
+      <path d="M416,66 A18,18 0 0,1 440,66" fill="none" stroke="#C49A3C" stroke-width="0.8" opacity="0.35"/>
+    </g>
+    <text x="446" y="78" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">IoT &amp; Wireless</text>
+    <text x="414" y="112" class="lbl" fill="#708068" font-size="8">ESP-NOW · WLED · Sensors</text>
+  </g>
+
+  <!-- Card: Drone Systems -->
+  <g class="c4 fi4" filter="url(#cs)">
+    <rect x="586" y="48" width="190" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="586" y="48" width="190" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:1.5s">
+      <!-- Drone icon -->
+      <circle cx="618" cy="76" r="3" fill="#4C8752" opacity="0.5"/>
+      <line x1="618" y1="76" x2="606" y2="66" stroke="#4C8752" stroke-width="0.8"/>
+      <line x1="618" y1="76" x2="630" y2="66" stroke="#4C8752" stroke-width="0.8"/>
+      <line x1="618" y1="76" x2="606" y2="86" stroke="#4C8752" stroke-width="0.8"/>
+      <line x1="618" y1="76" x2="630" y2="86" stroke="#4C8752" stroke-width="0.8"/>
+      <circle cx="606" cy="66" r="5" fill="none" stroke="#4C8752" stroke-width="0.6" opacity="0.4"/>
+      <circle cx="630" cy="66" r="5" fill="none" stroke="#4C8752" stroke-width="0.6" opacity="0.4"/>
+      <circle cx="606" cy="86" r="5" fill="none" stroke="#4C8752" stroke-width="0.6" opacity="0.4"/>
+      <circle cx="630" cy="86" r="5" fill="none" stroke="#4C8752" stroke-width="0.6" opacity="0.4"/>
+    </g>
+    <text x="646" y="78" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Drone Systems</text>
+    <text x="602" y="112" class="lbl" fill="#708068" font-size="8">Agri · FPV · Custom Builds</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- Card: Languages -->
+  <g class="c5 fi5" filter="url(#cs)">
+    <rect x="22" y="140" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="22" y="140" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:2s">
+      <text x="42" y="178" class="ico" fill="#C49A3C" font-size="16" opacity="0.7">&lt;/&gt;</text>
+    </g>
+    <text x="78" y="174" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Languages</text>
+    <text x="38" y="198" class="lbl" fill="#708068" font-size="8">C · C++ · Python · JS · TS</text>
+  </g>
+
+  <!-- Card: Full-Stack -->
+  <g class="c6 fi6" filter="url(#cs)">
+    <rect x="210" y="140" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="210" y="140" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:2.5s">
+      <!-- Stack layers icon -->
+      <polygon points="250,160 266,168 250,176 234,168" fill="none" stroke="#4C8752" stroke-width="1"/>
+      <polygon points="250,167 266,175 250,183 234,175" fill="none" stroke="#4C8752" stroke-width="0.8" opacity="0.6"/>
+      <polygon points="250,174 266,182 250,190 234,182" fill="none" stroke="#4C8752" stroke-width="0.6" opacity="0.4"/>
+    </g>
+    <text x="272" y="174" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Full-Stack</text>
+    <text x="226" y="198" class="lbl" fill="#708068" font-size="8">React · Node · Firebase · DB</text>
+  </g>
+
+  <!-- Card: AI & ML -->
+  <g class="c7 fi7" filter="url(#cs)">
+    <rect x="398" y="140" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="398" y="140" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:3s">
+      <!-- Neural net icon -->
+      <circle cx="418" cy="164" r="3" fill="#C49A3C" opacity="0.5"/>
+      <circle cx="418" cy="180" r="3" fill="#C49A3C" opacity="0.5"/>
+      <circle cx="434" cy="168" r="3" fill="#4C8752" opacity="0.5"/>
+      <circle cx="434" cy="180" r="3" fill="#4C8752" opacity="0.5"/>
+      <circle cx="450" cy="172" r="3" fill="#C49A3C" opacity="0.5"/>
+      <line x1="418" y1="164" x2="434" y2="168" stroke="#4C8752" stroke-width="0.5" opacity="0.4"/>
+      <line x1="418" y1="164" x2="434" y2="180" stroke="#4C8752" stroke-width="0.5" opacity="0.3"/>
+      <line x1="418" y1="180" x2="434" y2="168" stroke="#4C8752" stroke-width="0.5" opacity="0.3"/>
+      <line x1="418" y1="180" x2="434" y2="180" stroke="#4C8752" stroke-width="0.5" opacity="0.4"/>
+      <line x1="434" y1="168" x2="450" y2="172" stroke="#C49A3C" stroke-width="0.5" opacity="0.4"/>
+      <line x1="434" y1="180" x2="450" y2="172" stroke="#C49A3C" stroke-width="0.5" opacity="0.4"/>
+    </g>
+    <text x="460" y="178" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">AI &amp; ML</text>
+    <text x="414" y="198" class="lbl" fill="#708068" font-size="8">TinyML · Gemini · CV</text>
+  </g>
+
+  <!-- Card: Design & Media -->
+  <g class="c8 fi8" filter="url(#cs)">
+    <rect x="586" y="140" width="190" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="586" y="140" width="190" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:3.5s">
+      <!-- Pen tool icon -->
+      <path d="M612,186 L618,160 L624,186 Z" fill="none" stroke="#C49A3C" stroke-width="0.8" opacity="0.6"/>
+      <circle cx="618" cy="160" r="2" fill="#C49A3C" opacity="0.4"/>
+      <line x1="612" y1="186" x2="624" y2="186" stroke="#C49A3C" stroke-width="0.8" opacity="0.5"/>
+    </g>
+    <text x="636" y="174" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Design &amp; Media</text>
+    <text x="602" y="198" class="lbl" fill="#708068" font-size="8">Figma · Adobe Suite · UI/UX</text>
+  </g>
+
+  <!-- Row 3 -->
+  <!-- Card: Tools -->
+  <g class="c2 fi5" filter="url(#cs)">
+    <rect x="150" y="232" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="150" y="232" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:4s">
+      <!-- Git branch icon -->
+      <circle cx="178" cy="254" r="3" fill="#4C8752" opacity="0.5"/>
+      <circle cx="178" cy="280" r="3" fill="#4C8752" opacity="0.5"/>
+      <circle cx="192" cy="262" r="3" fill="#C49A3C" opacity="0.4"/>
+      <line x1="178" y1="257" x2="178" y2="277" stroke="#4C8752" stroke-width="0.8" opacity="0.5"/>
+      <path d="M178,260 Q185,260 192,262" fill="none" stroke="#C49A3C" stroke-width="0.6" opacity="0.4"/>
+    </g>
+    <text x="204" y="270" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Dev Tools</text>
+    <text x="166" y="290" class="lbl" fill="#708068" font-size="8">Git · GitHub · Vercel · Netlify</text>
+  </g>
+
+  <!-- Card: Leadership -->
+  <g class="c4 fi7" filter="url(#cs)">
+    <rect x="338" y="232" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="338" y="232" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:4.5s">
+      <!-- Star icon -->
+      <polygon points="368,256 371,264 380,264 373,270 375,278 368,273 361,278 363,270 356,264 365,264" fill="none" stroke="#C49A3C" stroke-width="0.8" opacity="0.6"/>
+    </g>
+    <text x="388" y="270" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Leadership</text>
+    <text x="354" y="290" class="lbl" fill="#708068" font-size="8">CEO · Team Lead · Speaker</text>
+  </g>
+
+  <!-- Card: Hardware -->
+  <g class="c6 fi8" filter="url(#cs)">
+    <rect x="526" y="232" width="170" height="72" rx="10" fill="url(#card)" stroke="#1D4623" stroke-width="0.8"/>
+    <rect x="526" y="232" width="170" height="72" rx="10" fill="url(#cardHi)"/>
+    <g filter="url(#ig)" class="ip" style="animation-delay:5s">
+      <!-- Soldering iron icon -->
+      <line x1="548" y1="282" x2="566" y2="256" stroke="#C49A3C" stroke-width="1.2" opacity="0.5"/>
+      <circle cx="566" cy="256" r="2.5" fill="#C49A3C" opacity="0.4"/>
+      <circle cx="548" cy="282" r="1.5" fill="#C49A3C" opacity="0.6">
+        <animate attributeName="opacity" values="0.3;0.8;0.3" dur="2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <text x="574" y="270" class="lbl" fill="#E8DCC8" font-size="11" font-weight="700">Prototyping</text>
+    <text x="542" y="290" class="lbl" fill="#708068" font-size="8">3D Print · Solder · Debug</text>
+  </g>
+
+  <!-- Connection lines between cards (subtle) -->
+  <g opacity="0.06" stroke="#4C8752" stroke-width="0.5" stroke-dasharray="3,5">
+    <line x1="192" y1="120" x2="210" y2="140"/>
+    <line x1="380" y1="120" x2="398" y2="140"/>
+    <line x1="568" y1="120" x2="586" y2="140"/>
+    <line x1="295" y1="212" x2="235" y2="232"/>
+    <line x1="483" y1="212" x2="423" y2="232"/>
+    <line x1="681" y1="212" x2="611" y2="232"/>
+  </g>
+
+  <!-- Bottom label -->
+  <text x="400" y="340" text-anchor="middle" fill="#708068" font-family="'Segoe UI',sans-serif" font-size="9" letter-spacing="2" opacity="0.4">10 DISCIPLINES · 30+ TOOLS · 13+ SHIPPED BUILDS</text>
+
+  <!-- Corner accents -->
+  <path d="M10,20 L10,10 L20,10" fill="none" stroke="#1D4623" stroke-width="0.8" opacity="0.3"/>
+  <path d="M790,20 L790,10 L780,10" fill="none" stroke="#1D4623" stroke-width="0.8" opacity="0.3"/>
+  <path d="M10,360 L10,370 L20,370" fill="none" stroke="#1D4623" stroke-width="0.8" opacity="0.3"/>
+  <path d="M790,360 L790,370 L780,370" fill="none" stroke="#1D4623" stroke-width="0.8" opacity="0.3"/>
+</svg>

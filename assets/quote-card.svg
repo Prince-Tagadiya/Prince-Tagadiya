@@ -1,0 +1,42 @@
+<svg width="800" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 80">
+  <defs>
+    <linearGradient id="qBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A160E"/>
+      <stop offset="100%" stop-color="#0E2016"/>
+    </linearGradient>
+    <linearGradient id="qBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4623" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#C49A3C" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#1D4623" stop-opacity="0.6"/>
+    </linearGradient>
+    <!-- Glassmorphism blur -->
+    <filter id="glass" x="-5%" y="-15%" width="110%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+    <filter id="qGlow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="b"/>
+      <feColorMatrix in="b" type="matrix" values="0 0 0 0 0.77 0 0 0 0 0.6 0 0 0 0 0.23 0 0 0 0.2 0"/>
+    </filter>
+    <style>
+      @keyframes qFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+      .qf{animation:qFloat 5s ease-in-out infinite}
+    </style>
+  </defs>
+
+  <g class="qf" filter="url(#glass)">
+    <!-- Card body -->
+    <rect x="40" y="8" width="720" height="58" rx="14" fill="url(#qBg)" stroke="url(#qBorder)" stroke-width="1"/>
+    <!-- Glass highlight -->
+    <rect x="40" y="8" width="720" height="20" rx="14" fill="#FFFFFF" opacity="0.02"/>
+
+    <!-- Gold quote mark -->
+    <text x="68" y="48" fill="#C49A3C" font-family="Georgia,serif" font-size="32" opacity="0.4" filter="url(#qGlow)">"</text>
+
+    <!-- Quote text -->
+    <text x="96" y="38" fill="#E8DCC8" font-family="Georgia,'Times New Roman',serif" font-size="12" font-style="italic" opacity="0.8">The best embedded system is the one where the hardware does the thinking,</text>
+    <text x="96" y="54" fill="#E8DCC8" font-family="Georgia,'Times New Roman',serif" font-size="12" font-style="italic" opacity="0.8">so the software doesn't have to.</text>
+
+    <!-- Closing quote -->
+    <text x="720" y="52" fill="#C49A3C" font-family="Georgia,serif" font-size="32" opacity="0.4" filter="url(#qGlow)">"</text>
+  </g>
+</svg>
