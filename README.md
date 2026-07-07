@@ -2,7 +2,7 @@
 
 <img src="assets/creato4-logo-rounded.svg" width="150" alt="The Creato4 Lab"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1810,50:1D4623,100:2E5F35&height=210&section=header&text=PRINCE%20TAGADIYA&fontSize=40&fontColor=F5E6CA&fontAlignY=36&animation=fadeIn&desc=Founder%20%26%20CEO%2C%20Creato4%20%C2%B7%20Embedded%20Systems%20%26%20Hardware%20Engineer&descAlignY=56&descSize=15&descColor=E3B34A" width="100%" alt="Prince Tagadiya"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1810,50:1D4623,100:2E5F35&height=210&section=header&text=PRINCE%20TAGADIYA&fontSize=40&fontColor=F5E6CA&fontAlignY=36&animation=fadeIn&desc=Founder%20%26%20CEO%2C%20Creato4%20-%20Embedded%20Systems%20%26%20Hardware%20Engineer&descAlignY=56&descSize=15&descColor=E3B34A" width="100%" alt="Prince Tagadiya — Founder & CEO, Creato4"/>
 
 <a href="https://princes-studio.netlify.app/">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=1100&color=F5E6CA&background=0F2612&center=true&vCenter=true&width=820&height=50&lines=Founder%20%26%20CEO%20%E2%80%94%20The%20Creato4%20Lab;Embedded%20Systems%20%26%20Hardware%20Engineer;IoT%20%2B%20AI%20Innovator%20%7C%20Full-Stack%20Developer;SSIP-Funded%20Researcher%20%C2%B7%20EFY%20Published%20%C2%B7%202x%20Hackathon%20Winner;Turning%20circuits%20into%20companies%2C%20one%20prototype%20at%20a%20time." alt="Typing SVG"/>
@@ -384,20 +384,28 @@ SSIP-funded hydroponic farming rig with automated dashboards and live sensor vis
 
 <div align="center">
 
+<!-- GitHub Stats card — commented out (rate-limited / failing)
 <img src="https://github-readme-stats.vercel.app/api?username=Prince-Tagadiya&show_icons=true&include_all_commits=true&count_private=true&bg_color=0F2612&title_color=E3B34A&icon_color=F0C669&text_color=C9BA92&border_color=2E5F35&border_radius=14" width="49%" alt="GitHub Stats"/>
-<img src="https://streak-stats.demolab.com/?user=Prince-Tagadiya&background=0F2612&border=2E5F35&stroke=2E5F35&ring=E3B34A&fire=F0C669&currStreakNum=F5E6CA&sideNums=F5E6CA&currStreakLabel=E3B34A&sideLabels=C9BA92&dates=C9BA92&border_radius=14" width="49%" alt="GitHub Streak"/>
+-->
 
+<!-- Top Languages card — commented out
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prince-Tagadiya&layout=compact&langs_count=8&bg_color=0F2612&title_color=E3B34A&text_color=C9BA92&border_color=2E5F35&border_radius=14" width="49%" alt="Top Languages"/>
+-->
+
+<!-- Activity Graph — commented out
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Prince-Tagadiya&bg_color=0F2612&color=C9BA92&title_color=E3B34A&line=E3B34A&point=F5E6CA&area_color=2E5F35&area=true&hide_border=true" width="49%" alt="Activity Graph"/>
+-->
 
-<br/><br/>
-
+<!-- Trophies — commented out
 <img src="https://github-profile-trophy.vercel.app/?username=Prince-Tagadiya&theme=gruvbox&no-frame=true&margin-w=10&margin-h=10&column=-1" alt="trophies"/>
+-->
 
-<br/><br/>
-
+<!-- Contribution Snake — commented out
 <b>Contribution Signal</b><br/>
 <img src="https://raw.githubusercontent.com/Prince-Tagadiya/Prince-Tagadiya/output/creato4-signal-snake.svg" width="100%" alt="contribution snake"/>
+-->
+
+<img src="https://streak-stats.demolab.com/?user=Prince-Tagadiya&background=0F2612&border=2E5F35&stroke=2E5F35&ring=E3B34A&fire=F0C669&currStreakNum=F5E6CA&sideNums=F5E6CA&currStreakLabel=E3B34A&sideLabels=C9BA92&dates=C9BA92&border_radius=14" width="60%" alt="GitHub Streak"/>
 
 </div>
 
