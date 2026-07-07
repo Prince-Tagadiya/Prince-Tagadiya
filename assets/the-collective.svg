@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" width="520" height="560">
+  <defs>
+    <radialGradient id="hubGrad" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#2E5F35"/>
+      <stop offset="100%" stop-color="#173A1D"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="260" cy="260" r="238" fill="none" stroke="#2E5F35" stroke-width="1.5"
+          stroke-dasharray="2 10" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" from="0 260 260" to="360 260 260"
+                       dur="60s" repeatCount="indefinite"/>
+  </circle>
+
+  <line x1="260" y1="260" x2="390.8" y2="129.2" stroke="#2E5F35" stroke-width="2"/>
+  <line x1="260" y1="260" x2="390.8" y2="390.8" stroke="#2E5F35" stroke-width="2"/>
+  <line x1="260" y1="260" x2="129.2" y2="390.8" stroke="#2E5F35" stroke-width="2"/>
+  <line x1="260" y1="260" x2="129.2" y2="129.2" stroke="#2E5F35" stroke-width="2"/>
+  <circle r="5" fill="#F0C669">
+    <animateMotion dur="1.8s" begin="0.0s" repeatCount="indefinite" path="M260,260 L390.8,129.2"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="0.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#F0C669">
+    <animateMotion dur="1.8s" begin="0.5s" repeatCount="indefinite" path="M260,260 L390.8,390.8"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="0.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#F0C669">
+    <animateMotion dur="1.8s" begin="1.0s" repeatCount="indefinite" path="M260,260 L129.2,390.8"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="1.0s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="5" fill="#F0C669">
+    <animateMotion dur="1.8s" begin="1.5s" repeatCount="indefinite" path="M260,260 L129.2,129.2"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="1.8s" begin="1.5s" repeatCount="indefinite"/>
+  </circle>
+  <g>
+    <circle cx="390.8" cy="129.2" r="44" fill="#173A1D" stroke="#F0C669" stroke-width="3">
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+    </circle>
+    <text x="390.8" y="136.2" text-anchor="middle" font-family="'Poppins', Verdana, sans-serif"
+          font-size="19" font-weight="700" fill="#F5E6CA">PR</text>
+  </g>
+  <g>
+    <circle cx="390.8" cy="390.8" r="44" fill="#173A1D" stroke="#E3B34A" stroke-width="2">
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="3s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="390.8" y="397.8" text-anchor="middle" font-family="'Poppins', Verdana, sans-serif"
+          font-size="19" font-weight="700" fill="#F5E6CA">RU</text>
+  </g>
+  <g>
+    <circle cx="129.2" cy="390.8" r="44" fill="#173A1D" stroke="#E3B34A" stroke-width="2">
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="3s" begin="1.0s" repeatCount="indefinite"/>
+    </circle>
+    <text x="129.2" y="397.8" text-anchor="middle" font-family="'Poppins', Verdana, sans-serif"
+          font-size="19" font-weight="700" fill="#F5E6CA">NI</text>
+  </g>
+  <g>
+    <circle cx="129.2" cy="129.2" r="44" fill="#173A1D" stroke="#E3B34A" stroke-width="2">
+      <animate attributeName="opacity" values="0.82;1;0.82" dur="3s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <text x="129.2" y="136.2" text-anchor="middle" font-family="'Poppins', Verdana, sans-serif"
+          font-size="19" font-weight="700" fill="#F5E6CA">KH</text>
+  </g>
+  <text x="390.8" y="195.2" text-anchor="middle" font-family="Verdana, sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#F5E6CA">PRINCE</text>
+  <text x="390.8" y="212.2" text-anchor="middle" font-family="Verdana, sans-serif" font-size="11" fill="#C9BA92">Embedded Systems</text>
+  <text x="390.8" y="456.8" text-anchor="middle" font-family="Verdana, sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#F5E6CA">RUDRA</text>
+  <text x="390.8" y="473.8" text-anchor="middle" font-family="Verdana, sans-serif" font-size="11" fill="#C9BA92">Software &amp; AI</text>
+  <text x="129.2" y="456.8" text-anchor="middle" font-family="Verdana, sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#F5E6CA">NISARG</text>
+  <text x="129.2" y="473.8" text-anchor="middle" font-family="Verdana, sans-serif" font-size="11" fill="#C9BA92">Hardware</text>
+  <text x="129.2" y="195.2" text-anchor="middle" font-family="Verdana, sans-serif" font-size="13" font-weight="700" letter-spacing="1" fill="#F5E6CA">KHUSHI</text>
+  <text x="129.2" y="212.2" text-anchor="middle" font-family="Verdana, sans-serif" font-size="11" fill="#C9BA92">Mechanical Design</text>
+  <text x="448.8" y="97.19999999999999" text-anchor="middle" font-size="16" fill="#F0C669">★</text>
+  <text x="448.8" y="113.19999999999999" text-anchor="middle" font-family="Verdana, sans-serif" font-size="9.5" letter-spacing="0.5" fill="#F0C669">THIS PROFILE</text>
+
+  <circle cx="260" cy="260" r="62" fill="url(#hubGrad)" stroke="#F0C669" stroke-width="2.5">
+    <animate attributeName="r" values="62;65;62" dur="3.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="260" y="282" text-anchor="middle" font-family="Georgia, serif"
+        font-size="58" font-weight="700" fill="#F5E6CA">4</text>
+
+  <text x="260" y="540" text-anchor="middle" font-family="Verdana, sans-serif"
+        font-size="12.5" letter-spacing="2" fill="#E3B34A">FOUR ENGINEERS · ONE LAB</text>
+</svg>

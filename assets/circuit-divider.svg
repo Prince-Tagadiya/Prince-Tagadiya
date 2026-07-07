@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 70" width="1400" height="70">
+  <defs>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="traceFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2E5F35" stop-opacity="0"/>
+      <stop offset="8%" stop-color="#2E5F35" stop-opacity="1"/>
+      <stop offset="92%" stop-color="#2E5F35" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#2E5F35" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- base PCB trace -->
+  <path id="tracePath"
+        d="M0,35 H160 L190,15 H260 L290,35 H620 L650,55 H720 L750,35 H1080 L1110,15 H1180 L1210,35 H1400"
+        fill="none" stroke="url(#traceFade)" stroke-width="2.5"/>
+
+  <!-- solder-pad nodes that breathe gently -->
+  <g fill="#E3B34A">
+    <circle cx="225" cy="15" r="4">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="685" cy="55" r="4">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1145" cy="15" r="4">
+      <animate attributeName="opacity" values="0.45;1;0.45" dur="2.2s" begin="1.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- traveling signal pulses -->
+  <circle r="5" fill="#F5E6CA" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#tracePath"/>
+    </animateMotion>
+  </circle>
+  <circle r="5" fill="#F0C669" filter="url(#glow)">
+    <animateMotion dur="7s" begin="3.5s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#tracePath"/>
+    </animateMotion>
+  </circle>
+</svg>

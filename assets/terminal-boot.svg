@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320" width="640" height="320">
+  <defs>
+    <clipPath id="clip0"><rect x="24" y="49" width="0" height="24"><animate attributeName="width" from="0" to="580" dur="0.55s" begin="0.3s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="clip1"><rect x="24" y="77" width="0" height="24"><animate attributeName="width" from="0" to="580" dur="0.55s" begin="1.0s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="clip2"><rect x="24" y="105" width="0" height="24"><animate attributeName="width" from="0" to="580" dur="0.55s" begin="1.7s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="clip3"><rect x="24" y="133" width="0" height="24"><animate attributeName="width" from="0" to="580" dur="0.55s" begin="2.4s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="clip4"><rect x="24" y="161" width="0" height="24"><animate attributeName="width" from="0" to="580" dur="0.55s" begin="3.1s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="clip5"><rect x="24" y="189" width="0" height="24"><animate attributeName="width" from="0" to="580" dur="0.55s" begin="4.0s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="clip6"><rect x="24" y="217" width="0" height="24"><animate attributeName="width" from="0" to="580" dur="0.55s" begin="4.7s" fill="freeze" calcMode="linear"/></rect></clipPath>
+    <clipPath id="winClip"><rect x="0" y="0" width="640" height="320" rx="18" ry="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#winClip)">
+    <rect x="0" y="0" width="640" height="320" fill="#0E1F12"/>
+    <rect x="0" y="0" width="640" height="34" fill="#173A1D"/>
+
+    <!-- traffic-light chrome -->
+    <circle cx="20" cy="17" r="6" fill="#FF5F56"/>
+    <circle cx="40" cy="17" r="6" fill="#FFBD2E"/>
+    <circle cx="60" cy="17" r="6" fill="#27C93F"/>
+    <text x="320" y="21" text-anchor="middle" font-family="Consolas, 'Courier New', monospace"
+          font-size="12" fill="#C9BA92">prince@creato4-lab : ~</text>
+
+    <text clip-path="url(#clip0)" x="24" y="66" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="14" fill="#E3B34A">$ ./init_creato4_lab.sh</text>
+    <text clip-path="url(#clip1)" x="24" y="94" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="14" fill="#C9BA92">loading embedded-systems ..........<tspan fill="#E3B34A">[ OK ]</tspan></text>
+    <text clip-path="url(#clip2)" x="24" y="122" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="14" fill="#C9BA92">loading iot-signal-processing ......<tspan fill="#E3B34A">[ OK ]</tspan></text>
+    <text clip-path="url(#clip3)" x="24" y="150" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="14" fill="#C9BA92">loading applied-ai-engine ..........<tspan fill="#E3B34A">[ OK ]</tspan></text>
+    <text clip-path="url(#clip4)" x="24" y="178" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="14" fill="#C9BA92">loading fullstack-interface ........<tspan fill="#E3B34A">[ OK ]</tspan></text>
+    <text clip-path="url(#clip5)" x="24" y="206" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="14" fill="#F5E6CA" font-weight="600">founder : Prince Tagadiya</text>
+    <text clip-path="url(#clip6)" x="24" y="234" font-family="'SFMono-Regular', Consolas, 'Courier New', monospace" font-size="14" fill="#F5E6CA" font-weight="600">status  : ONLINE — building real hardware</text>
+
+    <!-- blinking cursor -->
+    <rect x="360" y="220" width="8" height="17" fill="#F5E6CA" opacity="0">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="5.25s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="0.75" y="0.75" width="638.5" height="318.5" rx="18" ry="18"
+        fill="none" stroke="#2E5F35" stroke-width="1.5"/>
+</svg>
