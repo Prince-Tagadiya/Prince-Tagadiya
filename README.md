@@ -2,7 +2,7 @@
 
 <img src="assets/creato4-logo-rounded.svg" width="150" alt="The Creato4 Lab"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A1810,50:1D4623,100:2E5F35&height=210&section=header&text=PRINCE%20TAGADIYA&fontSize=40&fontColor=F5E6CA&fontAlignY=36&animation=fadeIn&desc=Founder%20%26%20CEO%2C%20Creato4%20-%20Embedded%20Systems%20%26%20Hardware%20Engineer&descAlignY=56&descSize=15&descColor=E3B34A" width="100%" alt="Prince Tagadiya — Founder & CEO, Creato4"/>
+<img src="assets/header-banner.svg" width="100%" alt="Prince Tagadiya — Founder & CEO, Creato4"/>
 
 <a href="https://princes-studio.netlify.app/">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=2800&pause=1100&color=F5E6CA&background=0F2612&center=true&vCenter=true&width=820&height=50&lines=Founder%20%26%20CEO%20%E2%80%94%20The%20Creato4%20Lab;Embedded%20Systems%20%26%20Hardware%20Engineer;IoT%20%2B%20AI%20Innovator%20%7C%20Full-Stack%20Developer;SSIP-Funded%20Researcher%20%C2%B7%20EFY%20Published%20%C2%B7%202x%20Hackathon%20Winner;Turning%20circuits%20into%20companies%2C%20one%20prototype%20at%20a%20time." alt="Typing SVG"/>
