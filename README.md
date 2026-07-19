@@ -1,16 +1,19 @@
 <div align="center">
 
-<img src="assets/creato4-logo-rounded.svg" width="140" alt="The Creato4 Lab"/>
+<!-- <img src="assets/creato4-logo-rounded.svg" width="140" alt="The Creato4 Lab"/> -->
 
-<img src="assets/header-banner.svg" width="100%" alt="Prince Tagadiya — Founder & CEO, Creato4"/>
+<!-- <img src="assets/header-banner.svg" width="100%" alt="Prince Tagadiya — Founder & CEO, Creato4"/> -->
 
-<a href="https://princes-studio.netlify.app/">
+<!-- <a href="https://princes-studio.netlify.app/">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1100&color=C49A3C&background=00000000&center=true&vCenter=true&width=780&height=44&lines=Founder+%26+CEO+%E2%80%94+The+Creato4+Lab;Embedded+Systems+%26+Hardware+Engineer;IoT+%2B+AI+Innovator+%7C+Full-Stack+Developer;SSIP-Funded+Researcher+%C2%B7+EFY+Published+%C2%B7+2x+Hackathon+Winner;Turning+circuits+into+companies%2C+one+prototype+at+a+time." alt="Typing SVG"/>
+</a> -->
+<a href="https://princes-studio.netlify.app/">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1100&color=C49A3C&background=00000000&center=true&vCenter=true&width=780&height=44&lines=Embedded+Systems+%26+Hardware+Engineer;IoT+%2B+AI+Innovator+%7C+Full-Stack+Developer;SSIP-Funded+Researcher+%C2%B7+EFY+Published+%C2%B7+2x+Hackathon+Winner;Turning+circuits+into+companies%2C+one+prototype+at+a+time." alt="Typing SVG"/>
 </a>
 
 <br/>
 
-<img src="https://img.shields.io/badge/Founder_%26_CEO-Creato4-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="Founder & CEO, Creato4"/>
+<!-- <img src="https://img.shields.io/badge/Founder_%26_CEO-Creato4-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="Founder & CEO, Creato4"/> -->
 <img src="https://img.shields.io/badge/Embedded_Systems-Engineer-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="Embedded Systems Engineer"/>
 <img src="https://img.shields.io/badge/IoT_%26_AI-Innovator-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="IoT & AI Innovator"/>
 <img src="https://img.shields.io/badge/Full--Stack-Developer-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="Full-Stack Developer"/>
@@ -27,15 +30,17 @@
 
 <br/>
 
-<!-- ============================================================ -->
-<!-- LIVE BUILD FEED — animated 3D terminal boot sequence          -->
-<!-- ============================================================ -->
+<!--
+============================================================
+LIVE BUILD FEED — animated 3D terminal boot sequence
+============================================================
 
 <div align="center">
 <img src="assets/terminal-boot.svg" width="640" alt="Creato4 Lab terminal boot sequence"/>
 </div>
 
 <br/>
+-->
 
 <img src="assets/circuit-divider.svg" width="100%" alt="signal divider"/>
 
@@ -47,7 +52,7 @@
 
 I'm a second-year ICT engineering student who'd rather solve a problem with transistors and logic gates than reach for whatever microcontroller a datasheet recommends. That instinct is what won a national hardware hackathon with a safety helmet that ships **zero lines of firmware** — every "smart" behavior in it happens in analog circuitry.
 
-It's also the instinct behind **Creato4**. Rather than wait for a company to hire us before we could build something real, four of us started one ourselves — designing drones, embedded systems, and product hardware for people who need working prototypes, not just pitch decks.
+<!-- It's also the instinct behind **Creato4**. Rather than wait for a company to hire us before we could build something real, four of us started one ourselves — designing drones, embedded systems, and product hardware for people who need working prototypes, not just pitch decks. -->
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -66,9 +71,10 @@ It's also the instinct behind **Creato4**. Rather than wait for a company to hir
 
 <img src="assets/circuit-divider.svg" width="100%" alt="signal divider"/>
 
-<!-- ============================================================ -->
-<!-- 02 — THE COLLECTIVE (Creato4 team)                           -->
-<!-- ============================================================ -->
+<!--
+============================================================
+02 — THE COLLECTIVE (Creato4 team)
+============================================================
 
 ## 🧬 02 · The Collective — Meet Creato4
 
@@ -109,6 +115,7 @@ It's also the instinct behind **Creato4**. Rather than wait for a company to hir
 <br/>
 
 <img src="assets/circuit-divider.svg" width="100%" alt="signal divider"/>
+-->
 
 <!-- ============================================================ -->
 <!-- 03 — MISSION CONTROL (personal impact stats — 3D cards)      -->
@@ -178,7 +185,8 @@ It's also the instinct behind **Creato4**. Rather than wait for a company to hir
  ├─ Feb         🧑‍💼 DayFlow — HRMS (Odoo × GCET Hackathon)
  ├─ Feb → Mar   🧠 IntelliHire — AI Hiring Assessment Platform
  ├─ Mar → Now   🚁 AGRI-TITAN X6 — Smart Agriculture Drone
- │              ₹44,000 SSIP 2.0 funded · Creato4 flagship build
+ │              <!-- ₹44,000 SSIP 2.0 funded · Creato4 flagship build -->
+ │              ₹44,000 SSIP 2.0 funded
  │
  └─ May         💧 IoT Water Leakage & Theft Detection System
                 🥈 RUNNER-UP · BGI Hackathon 2026 · 900+ participants
@@ -201,7 +209,8 @@ It's also the instinct behind **Creato4**. Rather than wait for a company to hir
 <td width="50%" valign="top">
 
 ### 🚁 AGRI-TITAN X6
-**Team Leader · Creato4 Flagship** &nbsp;·&nbsp; `Mar 2026 – Present`
+<!-- **Team Leader · Creato4 Flagship** &nbsp;·&nbsp; `Mar 2026 – Present` -->
+**Team Leader** &nbsp;·&nbsp; `Mar 2026 – Present`
 
 A smart agriculture drone system controllable by farmers with **zero technical drone knowledge**, pairing embedded flight control with a simplified mobile app.
 
@@ -435,10 +444,11 @@ SSIP-funded hydroponic farming rig with automated dashboards and live sensor vis
 
 <br/><br/>
 
-<img src="assets/creato4-logo-rounded.svg" width="64" alt="Creato4"/>
+<!-- <img src="assets/creato4-logo-rounded.svg" width="64" alt="Creato4"/>
 
 <br/>
-<sub>Prince Tagadiya · Founder & CEO, Creato4 · Built with hardware, hackathons, and one too many soldering irons.</sub>
+<sub>Prince Tagadiya · Founder & CEO, Creato4 · Built with hardware, hackathons, and one too many soldering irons.</sub> -->
+<sub>Prince Tagadiya · Built with hardware, hackathons, and one too many soldering irons.</sub>
 
 <br/><br/>
 
