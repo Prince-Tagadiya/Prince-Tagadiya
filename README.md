@@ -10,18 +10,18 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/Founder_%26_CEO-Creato4-C49A3C?style=for-the-badge&labelColor=0F2218" alt="Founder & CEO, Creato4"/>
-<img src="https://img.shields.io/badge/Embedded_Systems-Engineer-C49A3C?style=for-the-badge&labelColor=0F2218" alt="Embedded Systems Engineer"/>
-<img src="https://img.shields.io/badge/IoT_%26_AI-Innovator-C49A3C?style=for-the-badge&labelColor=0F2218" alt="IoT & AI Innovator"/>
-<img src="https://img.shields.io/badge/Full--Stack-Developer-C49A3C?style=for-the-badge&labelColor=0F2218" alt="Full-Stack Developer"/>
+<img src="https://img.shields.io/badge/Founder_%26_CEO-Creato4-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="Founder & CEO, Creato4"/>
+<img src="https://img.shields.io/badge/Embedded_Systems-Engineer-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="Embedded Systems Engineer"/>
+<img src="https://img.shields.io/badge/IoT_%26_AI-Innovator-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="IoT & AI Innovator"/>
+<img src="https://img.shields.io/badge/Full--Stack-Developer-C49A3C?style=for-the-badge&labelColor=0F2218&camo_buster=2" alt="Full-Stack Developer"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/📍_Surat,_Gujarat,_India-0E1E14?style=for-the-badge" alt="location"/>
-<a href="mailto:princetagadiya11@gmail.com"><img src="https://img.shields.io/badge/Email-152A1A?style=for-the-badge&logo=gmail&logoColor=C49A3C" alt="email"/></a>
-<a href="https://linkedin.com/in/prince-tagadiya"><img src="https://img.shields.io/badge/LinkedIn-152A1A?style=for-the-badge&logo=linkedin&logoColor=C49A3C" alt="linkedin"/></a>
-<a href="https://princes-studio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-152A1A?style=for-the-badge&logo=vercel&logoColor=C49A3C" alt="portfolio"/></a>
-<a href="https://instagram.com/__.prince._.28"><img src="https://img.shields.io/badge/Instagram-152A1A?style=for-the-badge&logo=instagram&logoColor=C49A3C" alt="instagram"/></a>
+<img src="https://img.shields.io/badge/📍_Surat,_Gujarat,_India-0E1E14?style=for-the-badge&camo_buster=2" alt="location"/>
+<a href="mailto:princetagadiya11@gmail.com"><img src="https://img.shields.io/badge/Email-152A1A?style=for-the-badge&logo=gmail&logoColor=C49A3C&camo_buster=2" alt="email"/></a>
+<a href="https://linkedin.com/in/prince-tagadiya"><img src="https://img.shields.io/badge/LinkedIn-152A1A?style=for-the-badge&logo=linkedin&logoColor=C49A3C&camo_buster=2" alt="linkedin"/></a>
+<a href="https://princes-studio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-152A1A?style=for-the-badge&logo=vercel&logoColor=C49A3C&camo_buster=2" alt="portfolio"/></a>
+<a href="https://instagram.com/__.prince._.28"><img src="https://img.shields.io/badge/Instagram-152A1A?style=for-the-badge&logo=instagram&logoColor=C49A3C&camo_buster=2" alt="instagram"/></a>
 
 </div>
 
@@ -305,31 +305,31 @@ SSIP-funded hydroponic farming rig with automated dashboards and live sensor vis
 
 **Embedded Systems & Hardware**
 <br/>
-![Arduino](https://img.shields.io/badge/Arduino-152A1A?style=flat-square&logo=arduino&logoColor=C49A3C) ![ESP32](https://img.shields.io/badge/ESP32-152A1A?style=flat-square&logo=espressif&logoColor=C49A3C) ![ESP8266](https://img.shields.io/badge/ESP8266-152A1A?style=flat-square&logo=espressif&logoColor=C49A3C) ![NodeMCU](https://img.shields.io/badge/NodeMCU-152A1A?style=flat-square&logoColor=C49A3C) ![Sensor Integration](https://img.shields.io/badge/Sensor_Integration-152A1A?style=flat-square) ![Analog Electronics](https://img.shields.io/badge/Analog_Electronics-152A1A?style=flat-square) ![Logic Circuits](https://img.shields.io/badge/Logic_Circuits-152A1A?style=flat-square) ![Hardware Debugging](https://img.shields.io/badge/Hardware_Debugging-152A1A?style=flat-square)
+![Arduino](https://img.shields.io/badge/Arduino-152A1A?style=flat-square&logo=arduino&logoColor=C49A3C&camo_buster=2) ![ESP32](https://img.shields.io/badge/ESP32-152A1A?style=flat-square&logo=espressif&logoColor=C49A3C&camo_buster=2) ![ESP8266](https://img.shields.io/badge/ESP8266-152A1A?style=flat-square&logo=espressif&logoColor=C49A3C&camo_buster=2) ![NodeMCU](https://img.shields.io/badge/NodeMCU-152A1A?style=flat-square&logoColor=C49A3C&camo_buster=2) ![Sensor Integration](https://img.shields.io/badge/Sensor_Integration-152A1A?style=flat-square&camo_buster=2) ![Analog Electronics](https://img.shields.io/badge/Analog_Electronics-152A1A?style=flat-square&camo_buster=2) ![Logic Circuits](https://img.shields.io/badge/Logic_Circuits-152A1A?style=flat-square&camo_buster=2) ![Hardware Debugging](https://img.shields.io/badge/Hardware_Debugging-152A1A?style=flat-square&camo_buster=2)
 
 **Circuit Design & PCB Tools**
 <br/>
-![KiCad](https://img.shields.io/badge/KiCad-152A1A?style=flat-square&logo=kicad&logoColor=C49A3C) ![Fritzing](https://img.shields.io/badge/Fritzing-152A1A?style=flat-square) ![Tinkercad](https://img.shields.io/badge/Tinkercad-152A1A?style=flat-square) ![PCB & Schematic Design](https://img.shields.io/badge/PCB_%26_Schematic_Design-152A1A?style=flat-square) ![Breadboard Prototyping](https://img.shields.io/badge/Breadboard_Prototyping-152A1A?style=flat-square)
+![KiCad](https://img.shields.io/badge/KiCad-152A1A?style=flat-square&logo=kicad&logoColor=C49A3C&camo_buster=2) ![Fritzing](https://img.shields.io/badge/Fritzing-152A1A?style=flat-square&camo_buster=2) ![Tinkercad](https://img.shields.io/badge/Tinkercad-152A1A?style=flat-square&camo_buster=2) ![PCB & Schematic Design](https://img.shields.io/badge/PCB_%26_Schematic_Design-152A1A?style=flat-square&camo_buster=2) ![Breadboard Prototyping](https://img.shields.io/badge/Breadboard_Prototyping-152A1A?style=flat-square&camo_buster=2)
 
 **IoT & Wireless Systems**
 <br/>
-![ESP-NOW](https://img.shields.io/badge/ESP--NOW-152A1A?style=flat-square) ![WLED](https://img.shields.io/badge/WLED-152A1A?style=flat-square) ![TinyML](https://img.shields.io/badge/TinyML-152A1A?style=flat-square&logo=tensorflow&logoColor=C49A3C) ![IR Communication](https://img.shields.io/badge/IR_Communication-152A1A?style=flat-square) ![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-152A1A?style=flat-square)
+![ESP-NOW](https://img.shields.io/badge/ESP--NOW-152A1A?style=flat-square&camo_buster=2) ![WLED](https://img.shields.io/badge/WLED-152A1A?style=flat-square&camo_buster=2) ![TinyML](https://img.shields.io/badge/TinyML-152A1A?style=flat-square&logo=tensorflow&logoColor=C49A3C&camo_buster=2) ![IR Communication](https://img.shields.io/badge/IR_Communication-152A1A?style=flat-square&camo_buster=2) ![Sensor Fusion](https://img.shields.io/badge/Sensor_Fusion-152A1A?style=flat-square&camo_buster=2)
 
 **Programming Languages**
 <br/>
-![C](https://img.shields.io/badge/C-152A1A?style=flat-square&logo=c&logoColor=C49A3C) ![C++](https://img.shields.io/badge/C%2B%2B-152A1A?style=flat-square&logo=cplusplus&logoColor=C49A3C) ![Embedded C](https://img.shields.io/badge/Embedded_C-152A1A?style=flat-square) ![Python](https://img.shields.io/badge/Python-152A1A?style=flat-square&logo=python&logoColor=C49A3C) ![JavaScript](https://img.shields.io/badge/JavaScript-152A1A?style=flat-square&logo=javascript&logoColor=C49A3C) ![TypeScript](https://img.shields.io/badge/TypeScript-152A1A?style=flat-square&logo=typescript&logoColor=C49A3C)
+![C](https://img.shields.io/badge/C-152A1A?style=flat-square&logo=c&logoColor=C49A3C&camo_buster=2) ![C++](https://img.shields.io/badge/C%2B%2B-152A1A?style=flat-square&logo=cplusplus&logoColor=C49A3C&camo_buster=2) ![Embedded C](https://img.shields.io/badge/Embedded_C-152A1A?style=flat-square&camo_buster=2) ![Python](https://img.shields.io/badge/Python-152A1A?style=flat-square&logo=python&logoColor=C49A3C&camo_buster=2) ![JavaScript](https://img.shields.io/badge/JavaScript-152A1A?style=flat-square&logo=javascript&logoColor=C49A3C&camo_buster=2) ![TypeScript](https://img.shields.io/badge/TypeScript-152A1A?style=flat-square&logo=typescript&logoColor=C49A3C&camo_buster=2)
 
 **AI & Full-Stack Development**
 <br/>
-![React](https://img.shields.io/badge/React-152A1A?style=flat-square&logo=react&logoColor=C49A3C) ![Node.js](https://img.shields.io/badge/Node.js-152A1A?style=flat-square&logo=nodedotjs&logoColor=C49A3C) ![Firebase](https://img.shields.io/badge/Firebase-152A1A?style=flat-square&logo=firebase&logoColor=C49A3C) ![MongoDB](https://img.shields.io/badge/MongoDB-152A1A?style=flat-square&logo=mongodb&logoColor=C49A3C) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-152A1A?style=flat-square&logo=tailwindcss&logoColor=C49A3C) ![Gemini AI](https://img.shields.io/badge/Gemini_AI-152A1A?style=flat-square&logo=googlegemini&logoColor=C49A3C) ![Odoo](https://img.shields.io/badge/Odoo-152A1A?style=flat-square&logo=odoo&logoColor=C49A3C)
+![React](https://img.shields.io/badge/React-152A1A?style=flat-square&logo=react&logoColor=C49A3C&camo_buster=2) ![Node.js](https://img.shields.io/badge/Node.js-152A1A?style=flat-square&logo=nodedotjs&logoColor=C49A3C&camo_buster=2) ![Firebase](https://img.shields.io/badge/Firebase-152A1A?style=flat-square&logo=firebase&logoColor=C49A3C&camo_buster=2) ![MongoDB](https://img.shields.io/badge/MongoDB-152A1A?style=flat-square&logo=mongodb&logoColor=C49A3C&camo_buster=2) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-152A1A?style=flat-square&logo=tailwindcss&logoColor=C49A3C&camo_buster=2) ![Gemini AI](https://img.shields.io/badge/Gemini_AI-152A1A?style=flat-square&logo=googlegemini&logoColor=C49A3C&camo_buster=2) ![Odoo](https://img.shields.io/badge/Odoo-152A1A?style=flat-square&logo=odoo&logoColor=C49A3C&camo_buster=2)
 
 **Design & Media**
 <br/>
-![Figma](https://img.shields.io/badge/Figma-152A1A?style=flat-square&logo=figma&logoColor=C49A3C) ![Photoshop](https://img.shields.io/badge/Photoshop-152A1A?style=flat-square&logo=adobephotoshop&logoColor=C49A3C) ![Illustrator](https://img.shields.io/badge/Illustrator-152A1A?style=flat-square&logo=adobeillustrator&logoColor=C49A3C) ![After Effects](https://img.shields.io/badge/After_Effects-152A1A?style=flat-square&logo=adobeaftereffects&logoColor=C49A3C) ![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-152A1A?style=flat-square&logo=adobepremierepro&logoColor=C49A3C)
+![Figma](https://img.shields.io/badge/Figma-152A1A?style=flat-square&logo=figma&logoColor=C49A3C&camo_buster=2) ![Photoshop](https://img.shields.io/badge/Photoshop-152A1A?style=flat-square&logo=adobephotoshop&logoColor=C49A3C&camo_buster=2) ![Illustrator](https://img.shields.io/badge/Illustrator-152A1A?style=flat-square&logo=adobeillustrator&logoColor=C49A3C&camo_buster=2) ![After Effects](https://img.shields.io/badge/After_Effects-152A1A?style=flat-square&logo=adobeaftereffects&logoColor=C49A3C&camo_buster=2) ![Premiere Pro](https://img.shields.io/badge/Premiere_Pro-152A1A?style=flat-square&logo=adobepremierepro&logoColor=C49A3C&camo_buster=2)
 
 **Tools & Leadership**
 <br/>
-![Git](https://img.shields.io/badge/Git-152A1A?style=flat-square&logo=git&logoColor=C49A3C) ![GitHub](https://img.shields.io/badge/GitHub-152A1A?style=flat-square&logo=github&logoColor=C49A3C) ![Vercel](https://img.shields.io/badge/Vercel-152A1A?style=flat-square&logo=vercel&logoColor=C49A3C) ![Netlify](https://img.shields.io/badge/Netlify-152A1A?style=flat-square&logo=netlify&logoColor=C49A3C) ![Team Leadership](https://img.shields.io/badge/Team_Leadership-152A1A?style=flat-square) ![Problem Solving](https://img.shields.io/badge/Problem_Solving-152A1A?style=flat-square)
+![Git](https://img.shields.io/badge/Git-152A1A?style=flat-square&logo=git&logoColor=C49A3C&camo_buster=2) ![GitHub](https://img.shields.io/badge/GitHub-152A1A?style=flat-square&logo=github&logoColor=C49A3C&camo_buster=2) ![Vercel](https://img.shields.io/badge/Vercel-152A1A?style=flat-square&logo=vercel&logoColor=C49A3C&camo_buster=2) ![Netlify](https://img.shields.io/badge/Netlify-152A1A?style=flat-square&logo=netlify&logoColor=C49A3C&camo_buster=2) ![Team Leadership](https://img.shields.io/badge/Team_Leadership-152A1A?style=flat-square&camo_buster=2) ![Problem Solving](https://img.shields.io/badge/Problem_Solving-152A1A?style=flat-square&camo_buster=2)
 
 <br/>
 
@@ -428,10 +428,10 @@ SSIP-funded hydroponic farming rig with automated dashboards and live sensor vis
 
 ### 📫 Let's Build Something Real
 
-<a href="mailto:princetagadiya11@gmail.com"><img src="https://img.shields.io/badge/Gmail-152A1A?style=for-the-badge&logo=gmail&logoColor=C49A3C"/></a>
-<a href="https://linkedin.com/in/prince-tagadiya"><img src="https://img.shields.io/badge/LinkedIn-152A1A?style=for-the-badge&logo=linkedin&logoColor=C49A3C"/></a>
-<a href="https://instagram.com/__.prince._.28"><img src="https://img.shields.io/badge/Instagram-152A1A?style=for-the-badge&logo=instagram&logoColor=C49A3C"/></a>
-<a href="https://princes-studio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-152A1A?style=for-the-badge&logo=vercel&logoColor=C49A3C"/></a>
+<a href="mailto:princetagadiya11@gmail.com"><img src="https://img.shields.io/badge/Gmail-152A1A?style=for-the-badge&logo=gmail&logoColor=C49A3C&camo_buster=2"/></a>
+<a href="https://linkedin.com/in/prince-tagadiya"><img src="https://img.shields.io/badge/LinkedIn-152A1A?style=for-the-badge&logo=linkedin&logoColor=C49A3C&camo_buster=2"/></a>
+<a href="https://instagram.com/__.prince._.28"><img src="https://img.shields.io/badge/Instagram-152A1A?style=for-the-badge&logo=instagram&logoColor=C49A3C&camo_buster=2"/></a>
+<a href="https://princes-studio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-152A1A?style=for-the-badge&logo=vercel&logoColor=C49A3C&camo_buster=2"/></a>
 
 <br/><br/>
 
