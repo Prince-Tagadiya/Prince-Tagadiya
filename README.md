@@ -2,9 +2,9 @@
 
 <!-- <img src="assets/creato4-logo-rounded.svg" width="140" alt="The Creato4 Lab"/> -->
 
-<!-- <img src="assets/header-banner.svg" width="100%" alt="Prince Tagadiya — Founder & CEO, Creato4"/> -->
+ <img src="assets/header-banner.svg" width="100%" alt="Prince Tagadiya"/> 
 
-<!-- <a href="https://princes-studio.netlify.app/">
+<!--<a href="https://princes-studio.netlify.app/">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=18&duration=2800&pause=1100&color=C49A3C&background=00000000&center=true&vCenter=true&width=780&height=44&lines=Founder+%26+CEO+%E2%80%94+The+Creato4+Lab;Embedded+Systems+%26+Hardware+Engineer;IoT+%2B+AI+Innovator+%7C+Full-Stack+Developer;SSIP-Funded+Researcher+%C2%B7+EFY+Published+%C2%B7+2x+Hackathon+Winner;Turning+circuits+into+companies%2C+one+prototype+at+a+time." alt="Typing SVG"/>
 </a> -->
 <a href="https://princes-studio.netlify.app/">
