@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Prince Tagadiya&#39;s GitHub Stats, Rank: C+</title>
-        <desc id="descId">Total Stars Earned: 3, Total Commits  : 1295, Total PRs: 10, Total Issues: 0, Contributed to (last year): 8</desc>
+        <desc id="descId">Total Stars Earned: 3, Total Commits  : 1324, Total PRs: 10, Total Issues: 0, Contributed to (last year): 8</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 202.66412960345366;
+        stroke-dashoffset: 202.32441000613622;
       }
     }
   
